@@ -1,36 +1,76 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Suren Gourapura",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "sureng@princeton.edu",
+    "phone": "(330) 988-2167",
+    "url": "https://sgourapura.github.io/",
+    "summary": "Interested in CMB data analysis",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+
+      "address": "Jadwin Hall Room 253, Washington Road",
+      "postalCode": "NJ 08540",
+      "city": "Princeton",
       "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+      "region": "New Jersey"
+    }
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Princeton University Department of Physics",
+      "position": "Graduate Student",
+      "url": "https://phy.princeton.edu/people/suren-gourapura",
+      "startDate": "2019-07-01",
+      "endDate": "2026-05-01",
+      "summary": "Working on the SPIDER and Taurus experiments",
+      "highlights": [
+        "Pointing reconstruction for SPIDER-2 using CMB intensity fluctuations",
+        "Characterization of pointing errors using compact source statistics",
+        "Understanding scan synchronous noise",
+        "Development of data quality flags and statistics",
+        "Determination of primary calibration and instrument parameters through CMB cross-correlation",
+        "SPIDER-2 integration and testing campaigns: Winter 2022-23 McMurdo Antarctica, Summer 2021 Palestine TX, Spring 2020 Princeton NJ",
+        "Tested various SPIDER-2 pointing strategies",
+        "Development of spectral domain component separation pipeline",
+        "Created unique divisions of the SPIDER sky and probed for correlations in existing cosmological data",
+        "Implementation and calibration of cryogenic housekeeping instrumentation",
+        "Mechanical design, testing, and assembly of flight photovoltaic arrays",
+        "Development and implementation of flight data storage system",
+        "Investigation of efficient, cryogenic filters for mitigation of RFI"
+      ]
+    },
+    {
+      "name": "University of Oslo Bayesian Cosmological Data Analysis Course",
+      "position": "Cosmoglobe Workshop Participant",
+      "startDate": "2024-09-01",
+      "endDate": "2024-09-01",
+      "summary": "Learning to use Commander 3, an end-to-end Bayesian parameter estimator that combines data from multiple experiments",
+      "highlights": [
+        "Applied SPIDER-1 data at the map level to Commander 3"
+      ]
+    },
+    {
+      "name": "Ohio State University Department of Physics",
+      "position": "Undergraduate Researcher",
+      "startDate": "2016-07-01",
+      "endDate": "2019-05-01",
+      "summary": "Working on the Askaryan Radio Array (ARA)",
+      "highlights": [
+        "Wrote a genetic algorithm to calibrate SURF data from Stanford Linear Accelerator Center (SLAC)",
+        "Wrote genetic algorithms to evolve wire antennas using gain and neutrino shower simulation software",
+        "Development of Askaryan Radio Array (ARA) hardware, firmware, and integration",
+        "Wrote genetic algorithms to fit spherical harmonic coefficients, generating directional antenna gain patterns"
+      ]
+    },
+    {
+      "name": "Big Data Analytics Project",
+      "position": "Class Developer",
+      "startDate": "2018-05-01",
+      "endDate": "2018-08-01",
+      "summary": "Helped create a new class, “Big Data” Analytics in Physics 6820",
+      "highlights": [
+        "Documented here: www.github.com/SummerBigData"
+      ]
     }
   ],
   "volunteer": [
