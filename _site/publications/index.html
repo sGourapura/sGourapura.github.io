@@ -56,7 +56,7 @@
 
 
 
-  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%94%AD&lt;/text&gt;&lt;/svg&gt;">
 
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
 <link rel="canonical" href="http://localhost:4000/publications/">
@@ -222,6 +222,29 @@
   
     <div class="col col-sm-2 abbr">
       
+        
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/publication_preview/fg_paper.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="fg_paper.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+
+        
+      
     </div>
   
 
@@ -237,11 +260,12 @@
       P. A. R.
             Ade, M.
             Amiri, S. J.
-            Benton, and
+            Benton, A. S.
+            Bergman, and
         <span class="more-authors" title="click to view 66 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
-              var more_authors_text = element.text() == '66 more authors' ? 'A. S. Bergman, R. Bihary, J. J. Bock, J. R. Bond, J. A. Bonetti, S. A. Bryan, H. C. Chiang, C. R. Contaldi, O. Doré, A. J. Duivenvoorden, H. K. Eriksen, J. P. Filippini, A. A. Fraisse, K. Freese, M. Galloway, A. E. Gambrel, N. N. Gandilo, K. Ganga, S. Gourapura, R. Gualtieri, J. E. Gudmundsson, M. Halpern, J. Hartley, M. Hasselfield, G. Hilton, W. Holmes, V. V. Hristov, Z. Huang, K. D. Irwin, W. C. Jones, A. Karakci, C. L. Kuo, Z. D. Kermish, J. S.-Y. Leung, S. Li, D. S. Y. Mak, P. V. Mason, K. Megerian, L. Moncelsi, T. A. Morford, J. M. Nagy, C. B. Netterfield, M. Nolta, R. O’Brient, B. Osherson, I. L. Padilla, B. Racine, A. S. Rahlin, C. Reintsema, J. E. Ruhl, M. C. Runyan, T. M. Ruud, J. A. Shariff, E. C. Shaw, C. Shiu, J. D. Soler, X. Song, A. Trangsrud, C. Tucker, R. S. Tucker, A. D. Turner, J. F. List, A. C. Weber, I. K. Wehus, D. V. Wiebe, E. Y. Young' : '66 more authors';
+              var more_authors_text = element.text() == '66 more authors' ? 'R. Bihary, J. J. Bock, J. R. Bond, J. A. Bonetti, S. A. Bryan, H. C. Chiang, C. R. Contaldi, O. Doré, A. J. Duivenvoorden, H. K. Eriksen, J. P. Filippini, A. A. Fraisse, K. Freese, M. Galloway, A. E. Gambrel, N. N. Gandilo, K. Ganga, S. Gourapura, R. Gualtieri, J. E. Gudmundsson, M. Halpern, J. Hartley, M. Hasselfield, G. Hilton, W. Holmes, V. V. Hristov, Z. Huang, K. D. Irwin, W. C. Jones, A. Karakci, C. L. Kuo, Z. D. Kermish, J. S.-Y. Leung, S. Li, D. S. Y. Mak, P. V. Mason, K. Megerian, L. Moncelsi, T. A. Morford, J. M. Nagy, C. B. Netterfield, M. Nolta, R. O’Brient, B. Osherson, I. L. Padilla, B. Racine, A. S. Rahlin, C. Reintsema, J. E. Ruhl, M. C. Runyan, T. M. Ruud, J. A. Shariff, E. C. Shaw, C. Shiu, J. D. Soler, X. Song, A. Trangsrud, C. Tucker, R. S. Tucker, A. D. Turner, J. F. List, A. C. Weber, I. K. Wehus, D. V. Wiebe, E. Y. Young, Spider Collaboration' : '66 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
                 element.html(more_authors_text.substring(0, cursorPosition + 1));
@@ -276,6 +300,8 @@
     <div class="links">
       
       
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
       
         <a href="https://doi.org/10.3847/1538-4357/ad900c" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
       
@@ -309,6 +335,11 @@
     
 
     
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>Using data from the first flight of Spider and from the Planck High Frequency Instrument, we probe the properties of polarized emission from interstellar dust in the Spider observing region. Component-separation algorithms operating in both the spatial and harmonic domains are applied to probe their consistency and to quantify modeling errors associated with their assumptions. Analyses of diffuse Galactic dust emission spanning the full Spider region demonstrate (i) a spectral energy distribution that is broadly consistent with a modified-blackbody (MBB) model with a spectral index of β d = 1.45 ± 0.05 (1.47 ± 0.06) for E (B)-mode polarization, slightly lower than that reported by Planck for the full sky; (ii) an angular power spectrum broadly consistent with a power law; and (iii) no significant detection of line-of-sight polarization decorrelation. Tests of several modeling uncertainties find only a modest impact (∼10% in σ  r ) on Spider’s sensitivity to the cosmological tensor-to-scalar ratio. The size of the Spider region further allows for a statistically meaningful analysis of the variation in foreground properties within it. Assuming a fixed dust temperature T d = 19.6 K, an analysis of two independent subregions of that field results in inferred values of β d = 1.52 ± 0.06 and β d = 1.09 ± 0.09, which are inconsistent at the 3.9σ level. Furthermore, a joint analysis of Spider and Planck 217 and 353 GHz data within one subregion is inconsistent with a simple MBB at more than 3σ, assuming a common morphology of polarized dust emission over the full range of frequencies. This evidence of variation may inform the component-separation approaches of future cosmic microwave background polarization experiments.</p>
+      </div>
+    
 
     
 
@@ -323,11 +354,34 @@
   
     <div class="col col-sm-2 abbr">
       
+        
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/publication_preview/taurus_cryostat.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="taurus_cryostat.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+
+        
+      
     </div>
   
 
   <!-- Entry bib key -->
-  <div id="tartakovsky2024thermalarchitecturecryogenicsuperpressure" class="col-sm-8">
+  <div id="10.1117/12.3015077" class="col-sm-8">
     <!-- Title -->
     <div class="title">Thermal architecture for a cryogenic super-pressure balloon payload: design and development of the Taurus flight cryostat</div>
     <!-- Author -->
@@ -338,11 +392,12 @@
       Simon
             Tartakovsky, Alexandre E.
             Adler, Jason E.
-            Austermann, and
-        <span class="more-authors" title="click to view 20 more authors" onclick="
+            Austermann, Steven J.
+            Benton, and
+        <span class="more-authors" title="click to view 19 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
-              var more_authors_text = element.text() == '20 more authors' ? 'Steven J. Benton, Rick Bihary, Malcolm Durking, Shannon M. Duff, Jeffrey P. Filippini, Aurelien A. Fraisse, Thomas J. L. J. Gascard, Sho M. Gibbs, Suren Gourapura, Jon E. Gudmundsson, John W. Hartley, Johannes Hubmayr, William C. Jones, Steven Li, Jared L. May, Johanna M. Nagy, Kate Okun, Ivan L. Padilla, L. Javier Romualdez, Michael R. Vissers' : '20 more authors';
+              var more_authors_text = element.text() == '19 more authors' ? 'Rick Bihary, Malcolm Durkin, Shannon M. Duff, Jeffrey P. Filippini, Aurelien A. Fraisse, Thomas J. L. J. Gascard, Sho M. Gibbs, Suren Gourapura, Jon E. Gudmundsson, John W. Hartley, Johannes Hubmayr, William C. Jones, Steven Li, Jared L. May, Johanna M. Nagy, Kate Okun, Ivan L. Padilla, L. Javier Romualdez, Michael R. Vissers' : '19 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
                 element.html(more_authors_text.substring(0, cursorPosition + 1));
@@ -350,7 +405,7 @@
                   clearInterval(textAdder);
                 }
             }, '10');
-          ">20 more authors</span>
+          ">19 more authors</span>
       
       
     </div>
@@ -367,7 +422,7 @@
     
     
     <div class="periodical">
-      Jan 2024
+      <em>In Ground-based and Airborne Telescopes X</em>,  Jan 2024
     </div>
     <div class="periodical">
       
@@ -377,6 +432,8 @@
     <div class="links">
       
       
+      
+        <a href="https://doi.org/10.1117/12.3015077" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
       
       
       
@@ -420,13 +477,36 @@
   
     <div class="col col-sm-2 abbr">
       
+        
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/publication_preview/jared_inst_overview.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="jared_inst_overview.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+
+        
+      
     </div>
   
 
   <!-- Entry bib key -->
-  <div id="may2024instrumentoverviewtaurusballoonborne" class="col-sm-8">
+  <div id="10.1117/12.3019051" class="col-sm-8">
     <!-- Title -->
-    <div class="title">Instrument Overview of Taurus: A Balloon-borne CMB and Dust Polarization Experiment</div>
+    <div class="title">Instrument overview of Taurus: a balloon-borne CMB and dust polarization experiment</div>
     <!-- Author -->
     <div class="author">
       
@@ -435,11 +515,12 @@
       Jared L.
             May, Alexandre E.
             Adler, Jason E.
-            Austermann, and
-        <span class="more-authors" title="click to view 20 more authors" onclick="
+            Austermann, Steven J.
+            Benton, and
+        <span class="more-authors" title="click to view 19 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
-              var more_authors_text = element.text() == '20 more authors' ? 'Steven J. Benton, Rick Bihary, Malcolm Durkin, Shannon M. Duff, Jeffrey P. Filippini, Aurelien A. Fraisse, Thomas J. L. J. Gascard, Sho M. Gibbs, Suren Gourapura, Jon E. Gudmundsson, John W. Hartley, Johannes Hubmayr, William C. Jones, Steven Li, Johanna M. Nagy, Kate Okun, Ivan L. Padilla, L. Javier Romualdez, Simon Tartakovsky, Michael R. Vissers' : '20 more authors';
+              var more_authors_text = element.text() == '19 more authors' ? 'Rick Bihary, Malcolm Durkin, Shannon M. Duff, Jeffrey P. Filippini, Aurelien A. Fraisse, Thomas J. L. J. Gascard, Sho M. Gibbs, Suren Gourapura, Jon E. Gudmundsson, John W. Hartley, Johannes Hubmayr, William C. Jones, Steven Li, Johanna M. Nagy, Kate Okun, Ivan L. Padilla, L. Javier Romualdez, Simon Tartakovsky, Michael R. Vissers' : '19 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
                 element.html(more_authors_text.substring(0, cursorPosition + 1));
@@ -447,7 +528,7 @@
                   clearInterval(textAdder);
                 }
             }, '10');
-          ">20 more authors</span>
+          ">19 more authors</span>
       
       
     </div>
@@ -464,7 +545,7 @@
     
     
     <div class="periodical">
-      Jan 2024
+      <em>In Ground-based and Airborne Telescopes X</em>,  Jan 2024
     </div>
     <div class="periodical">
       
@@ -474,6 +555,8 @@
     <div class="links">
       
       
+      
+        <a href="https://doi.org/10.1117/12.3019051" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
       
       
       
@@ -517,26 +600,50 @@
   
     <div class="col col-sm-2 abbr">
       
+        
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/publication_preview/elle_280.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="elle_280.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+
+        
+      
     </div>
   
 
   <!-- Entry bib key -->
-  <div id="shaw2024inflightperformancespiders280" class="col-sm-8">
+  <div id="10.1117/1.JATIS.10.4.044012" class="col-sm-8">
     <!-- Title -->
-    <div class="title">In-Flight Performance of Spider’s 280 GHz Receivers</div>
+    <div class="title">In-flight performance of Spider’s 280-GHz receivers</div>
     <!-- Author -->
     <div class="author">
       
 
       
       Elle C.
-            Shaw, P. A. R.
-            Ade, S.
-            Akers, and
-        <span class="more-authors" title="click to view 84 more authors" onclick="
+            Shaw, Peter A. R.
+            Ade, Scott
+            Akers, Mandana
+            Amiri, and
+        <span class="more-authors" title="click to view 82 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
-              var more_authors_text = element.text() == '84 more authors' ? 'M. Amiri, J. Austermann, J. Beall, D. T. Becker, S. J. Benton, A. S. Bergman, J. J. Bock, J. R. Bond, S. A. Bryan, H. C. Chiang, C. R. Contaldi, R. S. Domagalski, O. Doré, S. M. Duff, A. J. Duivenvoorden, H. K. Eriksen, M. Farhang, J. P. Filippini, L. M. Fissel, A. A. Fraisse, K. Freese, M. Galloway, A. E. Gambrel, N. N. Gandilo, K. Ganga, S. M. Gibbs, S. Gourapura, A. Grigorian, R. Gualtieri, J. E. Gudmundsson, M. Halpern, J. Hartley, M. Hasselfield, G. Hilton, W. Holmes, V. V. Hristov, Z. Huang, J. Hubmayr, K. D. Irwin, W. C. Jones, A. Kahn, Z. D. Kermish, C. King, C. L. Kuo, A. R. Lennox, J. S. -Y. Leung, S. Li, T. V. Luu, P. V. Mason, J. May, K. Megerian, L. Moncelsi, T. A. Morford, J. M. Nagy, R. Nie, C. B. Netterfield, M. Nolta, B. Osherson, I. L. Padilla, A. S. Rahlin, S. Redmond, C. Reintsema, L. J. Romualdez, J. E. Ruhl, M. C. Runyan, J. A. Shariff, C. Shiu, J. D. Soler, X. Song, S. Tartakovsky, H. Thommesen, A. Trangsrud, C. Tucker, R. S. Tucker, A. D. Turner, J. Ullom, J. F. List, J. Van Lanen, M. R. Vissers, A. C. Weber, I. K. Wehus, S. Wen, D. V. Wiebe, E. Y. Young' : '84 more authors';
+              var more_authors_text = element.text() == '82 more authors' ? 'Jason E. Austermann, James A. Beall, Daniel T. Becker, Steven J. Benton, Amanda S. Bergman, James J. Bock, John R. Bond, Sean A. Bryan, H. Cynthia Chiang, Carlo R. Contaldi, Rachel S. Domagalski, Olivier Doré, Shannon M. Duff, Adri J. Duivenvoorden, Hans K. Eriksen, Marzieh Farhang, Jeffrey P. Filippini, Laura M. Fissel, Aurelien A. Fraisse, Katherine Freese, Mathew N. Galloway, Anne E. Gambrel, Natalie N. Gandilo, Kenneth M. Ganga, Sho M. Gibbs, Suren Gourapura, Arpi Grigorian, Riccardo Gualtieri, Jon E. Gudmundsson, Mark Halpern, John W. Hartley, Matthew Hasselfield, Gene C. Hilton, Warren A. Holmes, Viktor V. Hristov, Zhiqi Huang, Johannes Hubmayr, Kent D. Irwin, William C. Jones, Asad Kahn, Zigmund D. Kermish, Cesiley L. King, Chao-Lin Kuo, Amber R. Lennox, Jason S.-Y. Leung, Steven Li, Thuy Vy Thi Luu, Peter V. Mason, Jared May, Krikor G. Megerian, Lorenzo Moncelsi, Thomas A. Morford, Johanna M. Nagy, Rong Nie, Calvin Barth Netterfield, Michael R. Nolta, Benjamin Osherson, Ivan L. Padilla, Alexandra S. Rahlin, Susan F. Redmond, Carl D. Reintsema, Javier L. Romualdez, John E. Ruhl, Marcus C. Runyan, Jamil A. Shariff, Corwin Shiu, Juan D. Soler, Xue Song, Simon Tartakovsky, Harald Thommesen, Amy R. Trangsrud, Carole E. Tucker, Anthony D. Turner, Joel N. Ullom, Joseph F. List, Jeff Van Lanen, Michael R. Vissers, Alexis C. Weber, Ingunn K. Wehus, Shyang Wen, Donald V. Wiebe, Edward Y. Young' : '82 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
                 element.html(more_authors_text.substring(0, cursorPosition + 1));
@@ -544,7 +651,7 @@
                   clearInterval(textAdder);
                 }
             }, '10');
-          ">84 more authors</span>
+          ">82 more authors</span>
       
       
     </div>
@@ -561,7 +668,7 @@
     
     
     <div class="periodical">
-      Jan 2024
+      <em>Journal of Astronomical Telescopes, Instruments, and Systems</em>,  Jan 2024
     </div>
     <div class="periodical">
       
@@ -571,6 +678,8 @@
     <div class="links">
       
       
+      
+        <a href="https://doi.org/10.1117/1.JATIS.10.4.044012" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
       
       
       
@@ -613,6 +722,29 @@
 <div class="row">
   
     <div class="col col-sm-2 abbr">
+      
+        
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/publication_preview/adler_2024.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="adler_2024.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+
+        
       
     </div>
   
@@ -629,11 +761,12 @@
       Alexandre E.
             Adler, Jason E.
             Austermann, Steven J.
-            Benton, and
-        <span class="more-authors" title="click to view 16 more authors" onclick="
+            Benton, Shannon M.
+            Duff, and
+        <span class="more-authors" title="click to view 15 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
-              var more_authors_text = element.text() == '16 more authors' ? 'Shannon M. Duff, Jeffrey P. Filippini, Aurelien A. Fraisse, Thomas Gascard, Sho M. Gibbs, Suren Gourapura, Johannes Hubmayr, Jon E. Gudmundsson, William C. Jones, Jared L. May, Johanna M. Nagy, Kate Okun, Ivan Padilla, Christopher Rooney, Simon Tartakovsky, Michael R. Vissers' : '16 more authors';
+              var more_authors_text = element.text() == '15 more authors' ? 'Jeffrey P. Filippini, Aurelien A. Fraisse, Thomas Gascard, Sho M. Gibbs, Suren Gourapura, Johannes Hubmayr, Jon E. Gudmundsson, William C. Jones, Jared L. May, Johanna M. Nagy, Kate Okun, Ivan Padilla, Christopher Rooney, Simon Tartakovsky, Michael R. Vissers' : '15 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
                 element.html(more_authors_text.substring(0, cursorPosition + 1));
@@ -641,7 +774,7 @@
                   clearInterval(textAdder);
                 }
             }, '10');
-          ">16 more authors</span>
+          ">15 more authors</span>
       
       
     </div>
@@ -715,6 +848,29 @@
   
     <div class="col col-sm-2 abbr">
       
+        
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/publication_preview/genetis_2021.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="genetis_2021.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+
+        
+      
     </div>
   
 
@@ -730,11 +886,12 @@
       Julie
             Rolla, Dean
             Arakaki, Maximilian
-            Clowdus, and
-        <span class="more-authors" title="click to view 17 more authors" onclick="
+            Clowdus, Amy
+            Connolly, and
+        <span class="more-authors" title="click to view 16 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
-              var more_authors_text = element.text() == '17 more authors' ? 'Amy Connolly, Ryan Debolt, Leo Deer, Ethan Fahimi, Eliot Ferstl, Suren Gourapura, Corey Harris, Luke Letwin, Alex Machtay, Alex Patton, Carl Pfendner, Cade Sbrocco, Tom Sinha, Ben Sipe, Kai Staats, Jacob Trevithick, Stephanie Wissel' : '17 more authors';
+              var more_authors_text = element.text() == '16 more authors' ? 'Ryan Debolt, Leo Deer, Ethan Fahimi, Eliot Ferstl, Suren Gourapura, Corey Harris, Luke Letwin, Alex Machtay, Alex Patton, Carl Pfendner, Cade Sbrocco, Tom Sinha, Ben Sipe, Kai Staats, Jacob Trevithick, Stephanie Wissel' : '16 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
                 element.html(more_authors_text.substring(0, cursorPosition + 1));
@@ -742,7 +899,7 @@
                   clearInterval(textAdder);
                 }
             }, '10');
-          ">17 more authors</span>
+          ">16 more authors</span>
       
       
     </div>
@@ -813,6 +970,29 @@
   
     <div class="col col-sm-2 abbr">
       
+        
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/publication_preview/genetis_2020.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="genetis_2020.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+
+        
+      
     </div>
   
 
@@ -828,11 +1008,12 @@
       Julie
             Rolla, Amy
             Connolly, Kai
-            Staats, and
-        <span class="more-authors" title="click to view 16 more authors" onclick="
+            Staats, Stephanie
+            Wissel, and
+        <span class="more-authors" title="click to view 15 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
-              var more_authors_text = element.text() == '16 more authors' ? 'Stephanie Wissel, Dean Arakaki, Ian Best, Adam Blenk, Brian Clark, Maximillian Clowdus, Suren Gourapura, Corey Harris, Hannah Hasan, Luke Letwin, David Liu, Carl Pfendner, Jordan Potter, Cade Sbrocco, Tom Sinha, Jacob Trevithick' : '16 more authors';
+              var more_authors_text = element.text() == '15 more authors' ? 'Dean Arakaki, Ian Best, Adam Blenk, Brian Clark, Maximillian Clowdus, Suren Gourapura, Corey Harris, Hannah Hasan, Luke Letwin, David Liu, Carl Pfendner, Jordan Potter, Cade Sbrocco, Tom Sinha, Jacob Trevithick' : '15 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
                 element.html(more_authors_text.substring(0, cursorPosition + 1));
@@ -840,7 +1021,7 @@
                   clearInterval(textAdder);
                 }
             }, '10');
-          ">16 more authors</span>
+          ">15 more authors</span>
       
       
     </div>
@@ -911,6 +1092,29 @@
   
     <div class="col col-sm-2 abbr">
       
+        
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/publication_preview/salmonella_nanop.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="salmonella_nanop.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+
+        
+      
     </div>
   
 
@@ -926,11 +1130,12 @@
       Sankar
             Renu, Ashley D
             Markazi, Santosh
-            Dhakal, and
-        <span class="more-authors" title="click to view 7 more authors" onclick="
+            Dhakal, Yashavanth S
+            Lakshmanappa, and
+        <span class="more-authors" title="click to view 6 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
-              var more_authors_text = element.text() == '7 more authors' ? 'Yashavanth S Lakshmanappa, Suren R Gourapura, Revathi Shanmugasundaram, Sujata Senapati, Balaji Narasimhan, Ramesh K Selvaraj, Gourapura J Renukaradhya' : '7 more authors';
+              var more_authors_text = element.text() == '6 more authors' ? 'Suren R Gourapura, Revathi Shanmugasundaram, Sujata Senapati, Balaji Narasimhan, Ramesh K Selvaraj, Gourapura J Renukaradhya' : '6 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
                 element.html(more_authors_text.substring(0, cursorPosition + 1));
@@ -938,7 +1143,7 @@
                   clearInterval(textAdder);
                 }
             }, '10');
-          ">7 more authors</span>
+          ">6 more authors</span>
       
       
     </div>
@@ -1030,7 +1235,7 @@
 
   
   
-    Last updated: June 24, 2025.
+    Last updated: June 26, 2025.
   
 
     </div>
