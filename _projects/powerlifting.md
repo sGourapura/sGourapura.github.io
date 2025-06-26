@@ -32,7 +32,7 @@ I competed in [three meets](https://www.openpowerlifting.org/u/surengourapura) a
 * Squat: 413.3 lbs
 * Bench: 343.5 lbs
 * Deadlift: 551.1 lbs
-* Best Total (achieved in one meet, not across meets): 1184.9 lbs
+* Best Total (not across meets): 1184.9 lbs
 * I competed between 173-183 lbs bodyweight
 
 <div class="row">
