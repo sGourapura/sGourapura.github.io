@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 I am a [PhD student in physics](https://phy.princeton.edu/people/suren-gourapura) at Princeton University, advised by [Bill Jones](https://phy.princeton.edu/people/william-c-jones). I work on the [SPIDER](https://lambda.gsfc.nasa.gov/product/spider/index.html) and [Taurus](https://www.tauruscmb.com/) experiments, both of which are [balloon-borne](https://www.csbf.nasa.gov/balloons.html) CMB polarimeters. SPIDER measured approximately 10% of the sky from Antarctica, using around 2,000 polarization-sensitive detectors over two flights. Taurus plans to measure about 40% of the sky from mid-latitudes, focusing on excellent cross-linking to measure multipoles with ℓ<10.
 
-My work has focused on:
+Summary of work:
 
 * [SPIDER-1 foreground analysis](https://arxiv.org/abs/2407.20982) with a spectral-domain component separation pipeline
 
