@@ -162,7 +162,7 @@
             "startDate": "2015-07-01",
             "endDate": "2019-05-01",
             "courses": [
-                "\textit{summa cum laude} (3.94 GPA)",
+                "summa cum laude, 3.94 GPA",
                 "Honors"
             ]
         }
@@ -270,7 +270,7 @@
             "name": "Machining",
             "icon": "fa-solid fa-hammer",
             "keywords": [
-                "End mill and Lathe",
+                "End mill and lathe",
                 "Imperial and metric hardware",
                 "Brass, steel, aluminum, copper"
             ]
@@ -299,8 +299,7 @@
             "icon": "fa-solid fa-hammer",
             "keywords": [
                 "Owned Artillery Sidewinder X1 filament printer",
-                "Designed custom parts using fusion 360",
-                "Sliced parts on Cura",
+                "Sliced with Cura",
                 "Transported and operated 3D printer in Antarctica"
             ]
         },
@@ -309,7 +308,7 @@
             "icon": "fa-solid fa-hammer",
             "keywords": [
                 "Designed and outfitted two woodworking spaces",
-                "Small projects: jewelry boxes, stools, shoe racks, coat hangers, tool handles, mallets, birds, spoons",
+                "Small projects: jewelry boxes, ring box, stools, shoe racks, coat hangers, tool handles, mallets, birds, spoons",
                 "Medium projects: computer table, mobile workbenches, wood stock shelving",
                 "Large/outdoor projects: bed frame with castle joints, garden planters, benches, trellis"
             ]
@@ -330,7 +329,7 @@
         },
         {
             "language": "Kannada",
-            "fluency": "Native, Proficient",
+            "fluency": "Proficient",
             "icon": ""
         },
         {
@@ -346,6 +345,13 @@
             "summary": "Presented SPIDER-1 Foregrounds Paper Results",
             "location":"Pan-Experiment Galactic Science Group, Virtual",
             "url": "https://galsci.github.io/"
+        },
+        {
+            "title": "Analysis of Polarized Dust Emission from the First Flight of the SPIDER Balloon-Borne Telescope",
+            "date": "2024-08-06",
+            "summary": "Presented results from the SPIDER polarized emissions paper at Astro-Coffee",
+            "location": "Department of Astronomy and Astrophysics, Princeton University",
+            "url": "https://coffee.astro.princeton.edu/astroph-coffee/papers/today"
         },
         {
             "title": "Foregrounds with SPIDER: Examining Deviations in Dust Modeling",
