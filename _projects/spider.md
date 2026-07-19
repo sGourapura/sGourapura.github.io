@@ -125,6 +125,7 @@ The team rushed to rebuild the lab, assemble, and begin the cooldown of the cryo
 
 The launch was aggressive, possibly crushing the star camera baffles and preventing them from functioning for the rest of the flight. We also launched only mostly full of cryogens, due to the aggressive schedule, which gave us only 9 days of cold detector time. We monitored the flight for a few days there, but quickly packed up everything to monitor remotely from Christchurch to free up the beds. The flight lasted 16 days and landed near enough to south pole station for our Spider alumni Sasha and a crew to go recover it. The harddrives, computers, electronics, gyros, sensors, and telescopes were all shipped back to Princeton. The remaining was left as "space debris" on the continent. A few scrap carbon fiber poles were salvaged for South Pole Station. Both the ceremonial and true south pole markers are now made with pieces of SPIDER! And even more honorifically, I heard someone used a piece as a broomstick.
 
-Back at Princeton, I pushed now on the foregrounds paper
+Back at Princeton, I pushed now on the foregrounds paper for SPIDER-1. We found a strange result by dividing the sky into diagonal halves, that the foregrounds from the upper left region are significantly discrepant with those from the bottom right region. This discrepancy was amplified when we used a SMICA-derived sky division of our sky. We also noticed that the sign of this discrepancy flipped at nearly the same significance when swapping between the 353 GHz minus 100 GHz dust template, and the 217 GHz minus 100 GHz dust template. These results were the primary focus of the SPIDER-1 foregrounds paper.
+
 
 Will write more soon!

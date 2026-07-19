@@ -52,4 +52,6 @@ I competed in [three meets](https://www.openpowerlifting.org/u/surengourapura) a
 
 Since then, I have done some olympic lifting. My best snatch is 135 lbs, best clean is 225, and best clean and jerk is 215 lbs.
 
-I have also road biked and rock climbed on and off during grad school. I am currently taking running more seriously and trying to be a well-rounded, healthy individual moving forwards.
+I have also road biked and rock climbed on and off during grad school. 
+I also play on the departmental summer softball team "The Big Bangers", which is always a blast.
+I am currently taking running and softball more seriously and trying to be a well-rounded, healthy individual moving forwards.
